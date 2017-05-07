@@ -3,11 +3,11 @@
   "version": "0.0.4",
   "description": "A tool used to generate react component description.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [
-    "babylon"
+    "babylon",
+    "propTypes",
+    "react",
+    "prop types"
   ],
   "author": "Ailun She",
   "license": "MIT",
@@ -17,5 +17,13 @@
     "@types/node": "^7.0.18",
     "babel-traverse": "^6.24.1",
     "babylon": "^6.17.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/mocha": "^2.2.41",
+    "chai": "^3.5.0",
+    "mocha": "^3.3.0",
+    "ts-node": "^3.0.4",
+    "typescript": "^2.3.2"
   }
 }
